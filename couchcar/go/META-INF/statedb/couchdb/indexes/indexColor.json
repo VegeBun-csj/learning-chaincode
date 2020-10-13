@@ -1,0 +1,10 @@
+{
+    "index":{
+      "fields":[
+        "docType",
+        "color"]
+    },
+    "ddoc":"indexColorDoc",
+    "name":"indexColor",
+    "type":"json"
+  }

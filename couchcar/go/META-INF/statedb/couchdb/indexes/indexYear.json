@@ -1,0 +1,10 @@
+{
+    "index":{
+      "fields":[
+        "docType",
+        "year"]
+    },
+    "ddoc":"indexYearDoc",
+    "name":"indexyear",
+    "type":"json"
+  }
