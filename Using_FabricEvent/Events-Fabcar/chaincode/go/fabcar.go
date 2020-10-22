@@ -138,14 +138,6 @@ func (s *SmartContract) createCar(APIstub shim.ChaincodeStubInterface, args []st
 }
 
 func (s *SmartContract) queryAllCars(APIstub shim.ChaincodeStubInterface) sc.Response {
-	//err1 := cid.AssertAttributeValue(APIstub, "usertype", "leader_car_department")
-	//if err1 != nil{
-	//	return shim.Error("你不是部门Leader，没有查看所有汽车的权限")
-	//}
-	//res, found, err := cid.GetAttributeValue(APIstub, "usertype")
-	//if found == false || err != nil || res != "leader_car_department"{
-	//	return shim.Error("没有权限")
-	//}
 	startKey := "CAR0"
 	endKey := "CAR999"
 
@@ -188,15 +180,6 @@ func (s *SmartContract) queryAllCars(APIstub shim.ChaincodeStubInterface) sc.Res
 }
 
 func (s *SmartContract) changeCarOwner(APIstub shim.ChaincodeStubInterface, args []string) sc.Response {
-
-	//err1 := cid.AssertAttributeValue(APIstub, "usertype", "leader_car_department")
-	//if err1 != nil{
-	//	return shim.Error("你不是部门Leader，不能更改汽车拥有者")
-	//}
-	//res, found, err := cid.GetAttributeValue(APIstub, "usertype")
-	//if found == false || err != nil || res != "leader_car_department"{
-	//	return shim.Error("没有权限")
-	//}
 
 	if len(args) != 2 {
 		return shim.Error("Incorrect number of arguments. Expecting 2")

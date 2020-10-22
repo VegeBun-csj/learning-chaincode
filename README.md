@@ -33,3 +33,7 @@ learn to write hyperledger fabric chaincode
   - ContractEvent(chaincode)
   - BlockEvent(Block)
   - CommitEvent(Transaction)
+  
+- ### car_privateData
+
+  This Example is used to display the usage of Private Data in Fabric 1.4.4. The detail of it writen in the chaincode.
