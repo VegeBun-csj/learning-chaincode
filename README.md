@@ -36,4 +36,10 @@ learn to write hyperledger fabric chaincode
   
 - ### car_privateData
 
-  This Example is used to display the usage of Private Data in Fabric 1.4.4. The detail of it writen in the chaincode.
+  This Example is used to display the usage of Private Data in Fabric 1.4.4. The details of it  are written in the chaincode.
+  
+- ### key-level-ep
+
+  This chaincode demonstrated the usage of the `Key-level` endorsement policy,which is a particular endorsement policy unlike the `chaincode-level` endorsement policy.
+
+  The using details are written in the chancode folder.
